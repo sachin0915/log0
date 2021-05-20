@@ -1,0 +1,85 @@
+*{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("bg.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+.icon i{
+    color: rgb(243, 240, 240);
+    position: absolute;
+    top: 36%;
+    left: 37%;
+    font-size: 846%;
+    color: skyblue;
+}
+.container{
+    
+    color: rgb(243, 240, 240);
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    
+    
+}  
+h1{
+    height: 70px;
+}
+.container h1{
+    font-size: 50px;
+    border-bottom: 9px solid rgba(33, 123, 212, 0.733) ;
+    width: 135%;
+    margin: -5px;
+    margin-bottom: 50px;
+    
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid rgb(88, 197, 240);
+    
+    
+}
+.box input{
+    width: 75%;
+    background: none;
+    border: 3px solid white;
+    border: none;
+    outline: none;
+    padding: 4px;
+    margin-left: 15px;
+    font-size: 20px ;
+    margin: 20px;
+    cursor: pointer;
+}
+::placeholder {
+    
+    color: white;
+}
+
+.box i{
+    margin: 5px;
+    margin-left: 22px;
+    font-size: 23.3px;
+    
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 33%;
+    margin-top: 55px;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-left: 6px;
+    border-radius: 2px;
+    border: solid 2px rgb(32 140 172) ;
+    background: none;
+    color: white;
+}
+.btn:hover{
+    color: black;
+    transition: 0.4s;
+    
+}
